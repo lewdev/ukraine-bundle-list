@@ -1,0 +1,11 @@
+{
+  "name": "ukraine-bundle-list",
+  "version": "1.0.0",
+  "description": "Browse, search, tag, and discover the massive list of games part of the Ukraine Bundle on itch.",
+  "scripts": {
+    "preinstall": "npm i serve concurrently opener -g",
+    "start": "concurrently \"serve src -p 3034\" \"opener http://localhost:3034\""
+  },
+  "author": "Lewis Nakao <lewdev@gmail.com>",
+  "license": "UNLICENSED"
+}
